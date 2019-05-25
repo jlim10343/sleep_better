@@ -7,13 +7,13 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    MediaPlayer audio;
+  /*  MediaPlayer audio;*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        audio=MediaPlayer.create(MainActivity.this,R.raw.catsound);
+      /*  audio=MediaPlayer.create(MainActivity.this,R.raw.catsound);*/
     }
 
 /*    public void playAudio(View v) {
