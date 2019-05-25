@@ -8,14 +8,15 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
     MediaPlayer audio;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        audio=MediaPlayer.create(MainActivity.this,R.raw.catSound);
+        audio=MediaPlayer.create(MainActivity.this,R.raw.catsound);
     }
 
-    public void playAudio(View v) {
+/*    public void playAudio(View v) {
         audio.start();
     }
 
@@ -23,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         audio.release();
-    }
-
+    }*/
 
 }
